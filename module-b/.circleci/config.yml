@@ -35,4 +35,4 @@ workflows:
   module-b-workflow-y:
     jobs:
       - module-b-hello-build/hello-build
-      #trigger build
+      #test
