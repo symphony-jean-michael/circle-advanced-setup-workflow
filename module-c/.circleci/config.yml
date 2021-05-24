@@ -12,7 +12,7 @@ jobs:
     steps:
       - common-say-hello:
           to: C
-      - run: echo 'Hello world from module C! :3'
+      - run: echo 'Hello world from module C!'
 
 workflows:
   module-c-workflow:
