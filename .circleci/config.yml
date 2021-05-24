@@ -28,7 +28,7 @@ commands:
       to:
         description: To whom you say hello
         type: string
-        default: you anonymous
+        default: stranger
     steps:
       - run: echo 'Greetings to << parameters.to >> from the shared command!'
       - run: echo 'The value of `custom-parameter` was "<< pipeline.parameters.custom-parameter >>"'
