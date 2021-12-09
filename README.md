@@ -14,3 +14,4 @@ This repository demonstrates an advanced use case of dynamic config feature on C
 3.  Fetch `path-to-module/.circleci/config.yml` for each module to build, and merge all the fetched `config.yml` (along with the config defining common resources, i.e., `.circleci/config.yml`) using `yq`. (cf. `merge-modular-configs`)
 4.  Trigger execution of the merged config.
  
+test
